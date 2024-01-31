@@ -16,8 +16,14 @@ jobs:
     - name: make
       run: make
 
+    - name: create archive
+      run: mkdir astext_build
+
+    - name: copy build file(s)
+      run: cp -vf astext astext_build/
+
     - name: upload artifact
       uses: actions/upload-artifact@v2
       with:
         name: build
-        path: astext
+        path: astext_build
