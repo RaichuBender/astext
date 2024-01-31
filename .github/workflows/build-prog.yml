@@ -25,5 +25,5 @@ jobs:
     - name: upload artifact
       uses: actions/upload-artifact@v2
       with:
-        name: build
+        name: astext_build_ubuntu_latest
         path: astext_build
