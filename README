@@ -1,5 +1,5 @@
-Easilly render binary data as primtable text
-With optional simple, unidirectional seed encryption
+Easilly render binary data as printable text
+With optional simple, bi-directional seed encryption
 
 Usage:
 	./astext  [input filename OR - for stdin]  [output filename OR -c for stdout]  [seed value]

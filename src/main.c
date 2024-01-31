@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
 			break;
 
 		// Cryptographic cipher
-		//   (unidirectional, so easilly reversible if seed is known)
+		//   (bi-directional, so easilly reversible if seed is known)
 		if (do_crypt != FALSE)
 			in = crypt_single(in);
 
