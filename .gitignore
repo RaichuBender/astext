@@ -1,0 +1,4 @@
+astext
+*.exe
+
+src/*.o
