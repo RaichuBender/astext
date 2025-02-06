@@ -1,6 +1,9 @@
+## astext
+
 Easilly render binary data as printable text
 With optional simple, bi-directional seed encryption
 
+```php
 Usage:
 	./astext  [input filename OR - for stdin]  [output filename OR -c for stdout]  [seed value]
 
@@ -10,4 +13,4 @@ Example in bash:
 
 Example with encryption:
 	$ printf "$(printf "$(./astext data.bin -c 7777)" | ./astext - -c 7777)" > data_out.bin
-
+```
